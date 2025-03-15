@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.yanwensiyi</groupId>
     <artifactId>kt-util</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <url>https://github.com/Yanwensiyi/kt-util</url>
     <description>Some kotlin utility classes and functions</description>
     <scm>
@@ -46,6 +46,9 @@
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <version>2.1.10</version>
                 <configuration>
+                    <sourceDirs>
+                        <sourceDir>src/main/java/</sourceDir>
+                    </sourceDirs>
                     <args>
                         <arg>-Xcontext-receivers</arg>
                     </args>
