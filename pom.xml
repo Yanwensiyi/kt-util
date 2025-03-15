@@ -57,6 +57,11 @@
                         <goals>
                             <goal>compile</goal>
                         </goals>
+                        <configuration>
+                            <args>
+                                <arg>-Xcontext-receivers</arg>
+                            </args>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
